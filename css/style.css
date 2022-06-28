@@ -7,8 +7,6 @@
 
 .about-content{
     margin-left: 10%;
-	font-family: 'proxima-nova', sans-serif;
-    font-size: ;
 }
 
 .about h2{
@@ -23,6 +21,7 @@
 
 body{
     margin: 0;
+    font-family: 'proxima-nova', sans-serif;
 }
 
 .footer{
