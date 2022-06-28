@@ -1,0 +1,44 @@
+.about{
+    background-color: #333333;
+    color: #EEEEEE;
+    padding-top: 1em;
+    padding-bottom: 23em;
+}
+
+.about-content{
+    margin-left: 10%;
+	font-family: 'proxima-nova', sans-serif;
+    font-size: ;
+}
+
+.about h2{
+    margin-left: 3%;
+}
+
+.about p{
+    /* display: inline; */
+    float: left;
+    margin-left: 5%;
+}
+
+body{
+    margin: 0;
+}
+
+.navbar{
+    background-color: #000000;
+    padding: 0.4em 0;
+}
+.navbar a{
+    color: #EEEEEE;
+    margin-left: 0.75em;
+}
+
+#profilePicture{
+    object-fit: cover;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    /* display: inline; */
+    float: left;
+}
