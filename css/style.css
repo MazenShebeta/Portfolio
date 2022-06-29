@@ -1,6 +1,7 @@
 .about{
     background-color: #333333;
     color: #EEEEEE;
+
 }
 
 .about-content{
@@ -10,8 +11,9 @@
 
 .about p{
     /* display: inline; */
-    float: left;
-    margin-left: 5%;
+    /* float: left; */
+    margin-left: 7%;
+    /* text-align: center; */
 }
 
 body{	
@@ -28,11 +30,14 @@ body{
 
 .footer a{
     color: #EEEEEE;
+
 }
 
 .mainDiv{
     padding-top: 1em;
     padding-bottom: 23em;
+    display: block;
+
 }
 
 .mainDiv h2{
@@ -50,14 +55,12 @@ body{
 
 #profilePicture{
     object-fit: cover;
-    height: 300px;
-    width: 300px;
+    height: 18em;
+    width: 18em;
     border-radius: 50%;
     /* display: inline; */
     float: left;
 }
-
-
 
 .resume{
     width: 50%;
@@ -68,6 +71,19 @@ body{
     margin-left: auto;
     margin-right: auto 
 
+}
+
+.songs{
+    align-self: center;
+    width: 70%;
+    text-align: center;
+    /* position: absolute;
+    display: inline; */
+    margin: auto;
+}
+
+.songs iframe{
+    width: 43%;
 }
 
 .workVideo{
