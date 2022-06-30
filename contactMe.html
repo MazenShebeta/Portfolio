@@ -5,32 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Contact Me</title>
 </head>
-<header>
-    <nav class="navbar">
-      <a href="index.html">About</a>
-      <a href="Resume.html">Resume</a>
-      <a href="contactMe.html">Contact me</a>
-      </nav>           
-  </header>
+  <header>
+      <nav class="navbar">
+        <a href="index.html">About</a>
+        <a href="Resume.html">Resume</a>
+        <a href="contactMe.html">Contact me</a>
+        </nav>           
+    </header>
   <main class="mainDiv contactForm">
-    <br>
-    <form action="contacting">
+    <form action="contacting" id="contact-form">
         <label for="fname">First name:</label>
         <input type="text" id="fname" name="fname"><br>
         <label for="lname">Last name:</label>
         <input type="text" id="lname" name="lname"><br>
         <label for="email">E-mail:</label>
         <input type="text" id="email" name="e-mail"><br>
+        <button type="submit" form="contact-form" value="Submit">Submit</button>
     </form>
   </main>
 
   <footer class="footer">
-    <h2>Contact</h2>
-    <a href="https://www.linkedin.com/in/mazen-shebeta-8993561b2/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+    <a class="fa-brands fa-linkedin" style="font-size: 3.5em;" href="https://www.linkedin.com/in/mazen-shebeta-8993561b2/" target="_blank"
+      rel="noopener noreferrer"></a>
     <br>
-    <a href="https://github.com/MazenShebeta" target="_blank" rel="noopener noreferrer">GitHub</a>
+    <a class="fa-brands fa-github-square" style="font-size: 3.5em;" href="https://github.com/MazenShebeta" target="_blank" rel="noopener noreferrer"></a>
   </footer>
 <body>
     
