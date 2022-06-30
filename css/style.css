@@ -1,5 +1,5 @@
 .about{
-    background-color: #333333;
+    background-color: #212121;
     color: #EEEEEE;
 
 }
@@ -25,7 +25,7 @@ body{
 .footer{
     color: #EEEEEE;
     height: 15em;
-    background-color: #666666;
+    background-color: #484848;
 }
 
 .footer a{
@@ -35,7 +35,7 @@ body{
 
 .mainDiv{
     padding-top: 1em;
-    padding-bottom: 23em;
+    padding-bottom: 18em;
     display: block;
 
 }
@@ -69,7 +69,7 @@ body{
     display:block;
     border-style:none;
     margin-left: auto;
-    margin-right: auto 
+    margin-right: auto
 
 }
 
@@ -83,15 +83,9 @@ body{
 }
 
 .songs iframe{
-    width: 43%;
+    width: 80%;
 }
 
-.workVideo{
-    display:block;
-    border-style:none;
-    margin-left: auto;
-    margin-right: auto 
-}
 .work{
-    padding-bottom: 10em ;
+    padding-bottom: 10em;
 }
